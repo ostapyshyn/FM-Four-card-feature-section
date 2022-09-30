@@ -1,0 +1,31 @@
+section {
+  max-width: 540px;
+  margin-bottom: 64px;
+  h1 {
+    font-weight: 275;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+    color: var(--very-dark-blue);
+    text-align: center;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: var(--very-dark-blue);
+    margin-bottom: 16px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    color: var(--very-dark-blue);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+}
