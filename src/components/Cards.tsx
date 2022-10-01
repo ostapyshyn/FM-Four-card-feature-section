@@ -1,15 +1,20 @@
-import React from 'react';
 import Card from './Card';
-import team from '../assets/svg/icon-team-builder.svg';
+import features from '../assets/data';
+import styles from '../assets/styles/cards.module.scss';
 
 function Cards() {
   return (
-    <main>
-      <Card
-        name={'Team Builder'}
-        about={'Scans our talent network to create the optimal team for your project'}
-        image={team}
-      />
+    <main className={styles.main}>
+      {features.map((feature) => {
+        return (
+          <Card
+            name={feature.name}
+            about={feature.about}
+            image={feature.image}
+            color={feature.color}
+          />
+        );
+      })}
     </main>
   );
 }

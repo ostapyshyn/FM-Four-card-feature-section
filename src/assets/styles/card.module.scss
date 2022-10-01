@@ -26,4 +26,12 @@
   img {
     margin-left: auto;
   }
+
+  &:first-child {
+    transform: translateY(140px);
+  }
+
+  &:nth-child(3) {
+    transform: translateY(140px);
+  }
 }
