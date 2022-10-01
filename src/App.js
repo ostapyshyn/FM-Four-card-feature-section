@@ -1,6 +1,6 @@
-import './App.css';
+import './App.scss';
 import Cards from './components/Cards';
-import Header from './components/Header';
+import Header from './components/Header.tsx';
 
 function App() {
   return (
