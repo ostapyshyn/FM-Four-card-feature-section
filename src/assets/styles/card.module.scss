@@ -1,11 +1,22 @@
 @import '../../index.scss';
 
-.article {
-  padding: 32px;
-  max-width: 350px;
-  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
-  border-radius: 8px;
-  border-top: 4px solid var(--red);
+article {
+  // padding: 32px;
+  // max-width: 350px;
+  // box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  // border-radius: 8px;
+  // position: relative;
+  // overflow: hidden;
+
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   height: 4px;
+  //   width: 100%;
+  //   background-color: var(--red);
+  // }
 
   h2 {
     font-weight: 600;
@@ -27,6 +38,10 @@
 
   img {
     margin-left: auto;
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
   }
 
   &:first-child,

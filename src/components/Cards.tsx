@@ -9,6 +9,7 @@ function Cards() {
       {features.map((feature) => {
         return (
           <Card
+            key={feature.id}
             name={feature.name}
             about={feature.about}
             image={feature.image}
