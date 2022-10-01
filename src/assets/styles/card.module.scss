@@ -44,12 +44,20 @@ article {
     }
   }
 
-  &:first-child,
+  &:first-child {
+    transform: translateY(140px);
+
+    @include mq(1180px) {
+      transform: translateY(0);
+    }
+  }
+
   &:nth-child(3) {
     transform: translateY(140px);
 
     @include mq(1180px) {
       transform: translateY(0);
+      order: 1;
     }
   }
 }
